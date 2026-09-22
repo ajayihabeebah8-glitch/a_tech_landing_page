@@ -1,0 +1,331 @@
+
+/* NAVIGATION */
+.header{
+  display: flex;
+ max-width:  100%;
+justify-content: space-between;
+ padding-left: 5em;
+ padding-right: 5em;
+}
+span{
+    color: orange;
+}
+.right_section{
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    width: 4em;
+}
+.header_text{
+    font-size: 10px;
+}
+.left_section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu_bar{
+    display: flex;
+    gap: 15px;  
+}
+.click{
+    border-radius: 25px;
+    border-style: ridge;
+    border-color: orange;
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+}
+.menuitem1{
+    border-bottom: solid orange;
+}
+.home_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 8%;
+    gap: 40px;
+    background-color: rgb(211, 226, 231);
+}
+.home_text{
+    width: 50%;
+}
+.home_text .h4{
+    color: rgb(168, 129, 57);
+    font-size: 18px;
+    margin: 0;
+}
+.home_text .h{
+    color: #1d3b70;
+    font-size: 48px;
+    margin: 0;
+}
+.home_text .h2{
+    color: orange;
+    font-size: 42px;
+    margin: 50px 0 20px;
+}
+.home_text .p{
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 550px;
+}
+.home_image {
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+}
+.home_button {
+    gap: 20px;
+    display: flex;
+    border-radius: 20%;
+}
+.home_button .first{
+  background-color: #f47b20;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.home_button .second{
+    border-radius: 25px;
+    border-style: ridge;
+}
+.image_text2{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 3;
+}
+.blue_circle{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: blue;
+    border-radius: 50%;
+    left: 100px;
+    top: 90px;
+    z-index: 2;
+}
+.orange_circle{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 50%;
+    right: 120px;
+    top: 50px;
+    z-index: 2;
+}
+.orange_circle2{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 50%;
+    left: 120px;
+    top: 190px;
+    z-index: 1;
+}
+.home_image img{
+    position: relative;
+    z-index: 10;
+}
+.orange_line {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 18px;
+    margin-top: 5px;
+}
+
+.orange_line span {
+    position: absolute;
+    display: block;
+    height: 2px;
+    background-color: orange;
+    transform-origin: left center;
+}
+
+.orange_line span:first-child {
+    width: 75px;
+    left: 0;
+    top: 3px;
+    transform: rotate(-5deg);
+}
+
+.orange_line span:last-child {
+    width: 45px;
+    left: 18px;
+    top: 9px;
+    transform: rotate(-18deg);
+}
+/* WHAT WE OFFER */
+.feature_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    padding: 25px 7%;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.feature{
+    flex: 1;
+}
+.feature .icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.feature h3{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #173b6c;
+    margin: 5px 0 8px;
+    font-weight: bold;
+}
+.feature P{
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #555;
+    max-width: 170px;
+    margin: 0  auto;
+}
+.about_section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #b1cede;
+    padding: 50px 8%;
+}
+/* LEFT IMAGE */
+.about_image{
+    width: 48%;
+}
+.about_image img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+/* RIGHT TEXT */
+.about_text{
+    width: 42%;
+}
+.about_text h5{
+    color: #fb7b20;
+    font-size: 13px;
+    margin: 0 0 6px;
+}
+.about_text h2{
+    color: #073b76;
+    font-size: 30px;
+    margin: 0 0 12px;
+}
+.about_text p{
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+.about_text button{
+    background-color: #f47b20;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+/* OUR COURSES SECTION */
+.Courses_section {
+    background-color: #f5f7f8;
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.Courses_section > h5 {
+    color: #f47b20;
+    font-size: 14px;
+    margin: 0 0 8px;
+}
+
+.Courses_section > h3 {
+    color: #123f70;
+    font-size: 30px;
+    margin: 0 0 35px;
+}
+
+/* SIX COURSE CARDS */
+.courses_container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    align-items: stretch;
+}
+
+.course_card {
+    background-color: #ffffff;
+    padding: 25px 12px 20px;
+    min-height: 180px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.course_card .icon {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.course_card h3 {
+    color: #123f70;
+    font-size: 14px;
+    margin: 8px 0 12px;
+}
+
+.course_card p {
+    color: #666;
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.course_card .arrow {
+    margin: 15px auto 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #1d6fb8;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials_section {
+    background-color: #b1cede;
+    padding: 60px 8%;
+    text-align: center;
+}
+.testimonials_section h5 {
+    color: #f47b20;
+    font-size: 14px;
+    margin: 0 0 8px;
+}
+.testimonials_section h2 {
+    color: #123f70;
+    font-size: 30px;
+    margin: 0 0 35px;
+}
