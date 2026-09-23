@@ -41,6 +41,7 @@ a{
 }
 .menuitem1{
     border-bottom: solid orange;
+    color: orange;
 }
 .home_section{
     display: flex;
@@ -328,4 +329,109 @@ a{
     color: #123f70;
     font-size: 30px;
     margin: 0 0 35px;
+}
+.testimonials_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.student {
+    color: #123f70;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.testimonial p {
+    color: #555;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.course {
+    color: #f47b20;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer_section {
+    background-color: #123f70;
+    color: white;
+    padding: 50px 8% 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 40px;
+}
+
+.footer_about img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.footer_about h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.footer_about h6 {
+    font-size: 11px;
+    color: #f47b20;
+    margin: 0;
+}
+.quick-link_section h3,
+.contact-us_section h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.quick-link_section p {
+    font-size: 13px;
+    line-height: 2;
+    color: #ddd;
+}
+.contact_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.contact_item span {
+    font-size: 16px;
+}
+
+.contact_item p {
+    font-size: 12px;
+    color: #ddd;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contact-us_section h4 {
+    font-size: 14px;
+    margin: 20px 0 10px;
+}
+
+.social_icons {
+    font-size: 16px;
+}
+
+.footer_bottom {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer_bottom hr {
+    border: none;
+    border-top: 1px solid #ffffff55;
+    margin-bottom: 15px;
+}
+
+.footer_bottom p {
+    font-size: 11px;
+    color: #ddd;
 }
