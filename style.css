@@ -31,16 +31,22 @@ span{
     gap: 15px;  
 }
 .click{
-    border-radius: 25px;
-    border-style: ridge;
-    border-color: orange;
-    background-color: orange;
+    background-color: #f47b20;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
 }
 .menuitem1{
     border-bottom: solid orange;
+    color: orange;
+}
+
+.menuitem1 a{
     color: orange;
 }
 .home_section{
@@ -96,6 +102,7 @@ a{
 .home_button .second{
     border-radius: 25px;
     border-style: ridge;
+    background-color: #d3e2e7;
 }
 .image_text2{
     position: absolute;
@@ -149,8 +156,11 @@ a{
     position: absolute;
     display: block;
     height: 2px;
+    width: 75px;
     background-color: orange;
     transform-origin: left center;
+    border-radius: 50%;
+    
 }
 
 .orange_line span:first-child {
