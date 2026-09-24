@@ -155,26 +155,26 @@ a{
 .orange_line span {
     position: absolute;
     display: block;
-    height: 2px;
-    width: 75px;
-    background-color: orange;
-    transform-origin: left center;
-    border-radius: 50%;
-    
+    width: 80px;
+  height: 89px;
+  border: solid 3px orange;
+  border-color: orange transparent transparent transparent;
+ border-width: 4px;
 }
-
 .orange_line span:first-child {
-    width: 75px;
+    width: 100px;
     left: 0;
     top: 3px;
-    transform: rotate(-5deg);
+    transform: rotate(-10deg);
+    border-radius: 40% / 5px 10px 0 0;
 }
 
 .orange_line span:last-child {
-    width: 45px;
+    width: 70px;
     left: 18px;
     top: 9px;
-    transform: rotate(-18deg);
+    transform: rotate(-40deg);
+    border-radius: 40% / 5px 10px 0 0;;
 }
 /* WHAT WE OFFER */
 .feature_section{
@@ -426,9 +426,6 @@ a{
     margin: 20px 0 10px;
 }
 
-.social_icons {
-    font-size: 16px;
-}
 
 .footer_bottom {
     grid-column: 1 / -1;
@@ -445,7 +442,12 @@ a{
     font-size: 11px;
     color: #ddd;
 }
+.iconic {
+    display: flex;
+    gap: 10px;
+}
 
-/* body{
-    display: none;
-} */
+.iconic img {
+    width: 30px;
+    height: 30px;
+}
