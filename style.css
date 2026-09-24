@@ -485,7 +485,7 @@
 }
 .footer_bottom h4 {
     position: absolute;
-    left: 0;
+    right: 2;
     bottom: -5px;
     margin: 0;
     color: #ddd;
