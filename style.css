@@ -450,19 +450,19 @@
 
 .footer_bottom {
     grid-column: 1 / -1;
-    width: 100%;
-    text-align: center;
+    position: relative;
     margin-top: 20px;
 }
 
 .footer_bottom hr {
     width: 100%;
-    margin: 0 0 20px 0;
     border: none;
-    border-top: 2px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 0 20px 0;
 }
 
 .footer_bottom p {
+    text-align: center;
     font-size: 11px;
     color: #ddd;
 }
@@ -482,4 +482,20 @@
 }
 .follow_section {
     margin-top: 0;
+}
+.footer_bottom h4 {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    margin: 0;
+    color: #ddd;
+}
+.footer_line {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: orange;
+    border-radius: 50%;
+    transform: rotate(-5deg);
+    margin-top: 5px;
 }
